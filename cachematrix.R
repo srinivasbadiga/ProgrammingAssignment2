@@ -4,7 +4,7 @@
 ## Write a short comment describing this function
 ##it create matrix object that cache the inverse
 
-makeCacheMatrix <- function(x1 = mat()) {
+makeCacheMatrix <- function(x1 = matrix()) {
         inver <- NULL
   set <- function(y1){
     x1 <<- y1
